@@ -1,4 +1,4 @@
-// 1. PLACE THIS AT THE VERY TOP OF SERVER.JS BEFORE ANYTHING ELSE
+
 const dns = require('node:dns');
 dns.setServers(['1.1.1.1', '8.8.8.8']); 
 
