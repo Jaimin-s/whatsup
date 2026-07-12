@@ -1,8 +1,6 @@
-// 1. PLACE THIS AT THE VERY TOP OF SERVER.JS BEFORE ANYTHING ELSE
 const dns = require('node:dns');
 dns.setServers(['1.1.1.1', '8.8.8.8']); 
 
-// 2. Your existing imports continue below
 require('dotenv').config();
 
 const app = require('./app');
